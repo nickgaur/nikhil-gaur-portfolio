@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { profile } from "../data.js";
 import Blobs from "./Blobs.jsx";
+import Resume from "./Resume.jsx";
 
 const sections = [
   { id: "profile", label: "Profile" },
@@ -22,7 +23,7 @@ export default function Sidebar() {
           if (entry.isIntersecting) setActive(entry.target.id);
         });
       },
-      { rootMargin: "-40% 0px -50% 0px" }
+      { rootMargin: "-40% 0px -50% 0px" },
     );
 
     sections.forEach(({ id }) => {
@@ -34,13 +35,17 @@ export default function Sidebar() {
   }, []);
 
   return (
+    <div className="sidebar-container">
     <aside className="sidebar">
       <Blobs />
 
       <div className="sidebar-mark">
         {/* Profile picture placeholder — swap this div for an <img src="/your-photo.jpg" alt="Nikhil Gaur" /> */}
         <div className="avatar-ring">
-          <div className="avatar-placeholder" aria-label="Profile photo placeholder">
+          <div
+            className="avatar-placeholder"
+            aria-label="Profile photo placeholder"
+          >
             NG
           </div>
         </div>
@@ -67,6 +72,8 @@ export default function Sidebar() {
         <span className="status-dot" aria-hidden="true" />
         Open to backend &amp; full-stack opportunities
       </p>
+      <Resume />
     </aside>
+    </div>
   );
 }

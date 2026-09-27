@@ -827,7 +827,7 @@ button {
   outline: none;
 }
 
-.contact-form button {
+.contact-form button, .download-resume button {
   align-self: flex-start;
   background: var(--coral);
   color: #fff;
