@@ -216,24 +216,27 @@ button {
 .sidebar-mark {
   position: relative;
   z-index: 1;
-  text-align: left;
+  text-align: center;
 }
 
 .avatar-ring {
-  width: 92px;
-  height: 92px;
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
-  padding: 4px;
+  /* padding: 4px; */
   margin-bottom: 1.2rem;
-  background: conic-gradient(
+  /* background: conic-gradient(
     from 180deg,
     var(--coral),
     var(--gold),
     var(--teal),
     var(--indigo),
     var(--coral)
-  );
-  animation: spinRing 10s linear infinite;
+  ); */
+  margin-left: auto;
+  margin-right: auto;
+  /* animation: spinRing 10s linear infinite; */
+  border: 5px solid #f3e4c3;
 }
 
 @keyframes spinRing {

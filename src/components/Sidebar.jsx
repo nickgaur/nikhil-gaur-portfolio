@@ -42,12 +42,7 @@ export default function Sidebar() {
       <div className="sidebar-mark">
         {/* Profile picture placeholder — swap this div for an <img src="/your-photo.jpg" alt="Nikhil Gaur" /> */}
         <div className="avatar-ring">
-          <div
-            className="avatar-placeholder"
-            aria-label="Profile photo placeholder"
-          >
-            NG
-          </div>
+          <img className="avatar-placeholder" src="/profile.jpeg" alt="Nikhil Gaur" />
         </div>
         <p className="sidebar-name">{profile.name}</p>
         <p className="sidebar-role">{profile.role}</p>

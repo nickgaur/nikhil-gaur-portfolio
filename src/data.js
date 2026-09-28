@@ -13,26 +13,36 @@ export const profile = {
 export const skillGroups = [
   {
     label: "Languages",
-    items: ["Java", "C", "C++", "C#", ".NET", "TypeScript"],
+    items: ["Java", "C", "C++", "C#", "TypeScript", "Python"],
   },
   {
     label: "Backend & Frameworks",
     items: [
       "Spring Boot",
+      "Microservices",
       "Spring Data JPA",
+      "RESTful APIs",
       "Spring Security",
       "Hibernate",
       "JDBC",
       "J2EE",
       "NodeJS",
       "ExpressJS",
-      "RESTful APIs",
-      "Microservices",
+      ".NET",
     ],
   },
   {
     label: "Frontend",
-    items: ["ReactJS", "Angular", "JavaScript", "HTML", "CSS"],
+    items: [
+      "ReactJS",
+      "Angular",
+      "JavaScript",
+      "JQuery",
+      "Tailwind CSS",
+      "Bootstrap",
+      "HTML",
+      "CSS",
+    ],
   },
   {
     label: "Data & Databases",
@@ -41,6 +51,7 @@ export const skillGroups = [
   {
     label: "Tools & Practices",
     items: [
+      "Prompt Engineering",
       "Git/GitHub",
       "Linux",
       "OOP",
@@ -163,7 +174,14 @@ export const projects = [
       "Built authentication and authorization workflows with email verification to strengthen access management",
       "Integrated Stripe APIs for seamless payment processing",
     ],
-    stack: ["ReactJS", "NodeJS", "ExpressJS", "Twilio SendGrid", "Stripe", "MongoDB"],
+    stack: [
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS",
+      "Twilio SendGrid",
+      "Stripe",
+      "MongoDB",
+    ],
   },
 ];
 
