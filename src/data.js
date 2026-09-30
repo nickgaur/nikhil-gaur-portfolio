@@ -60,7 +60,7 @@ export const skillGroups = [
       "System Design",
       "Data Structures & Algorithms",
       "Full Stack Web Development",
-      "Power Automate"
+      "Power Automate",
     ],
   },
 ];
@@ -81,7 +81,7 @@ export const experience = [
       "Built a web-based UI to streamline internal workflows, driving increase in team efficiency",
       "Applied authentication and authorization protocols (SAML, OAuth 2.0, OIDC) to strengthen application security",
       "Collaborated with designers and QA across cross-functional teams to deliver high-quality releases",
-      "Built Number of Automation Workflows through Power Automate to Audit & Reduced Efforts to do Repeated Jobs"
+      "Built Number of Automation Workflows through Power Automate to Audit & Reduced Efforts to do Repeated Jobs",
     ],
   },
   {
@@ -204,14 +204,30 @@ export const education = [
   },
 ];
 
+// export const Portfolio = [
+
+// ]
+
 export const certifications = [
-  "Microsoft Azure AZ-900 Certification",
-  "C++ Development Certification",
-  "Udemy Certified Full Stack Web Developer (MERN)",
+  {
+    courseName: "Microsoft Azure AZ-900 Certification",
+    certificateUrl:
+      "https://www.credly.com/badges/5b7afff5-1ef7-40e2-8f18-e418c4850796/public_url",
+  },
+  {
+    courseName: "C++ Development Certification",
+    certificateUrl:
+      "https://drive.google.com/file/d/1Sp1DioIwvxaJoOHdOA75e2OCj1QWvmeG/view?usp=sharing",
+  },
+  {
+    courseName: "Udemy Certified Full Stack Web Developer (MERN)",
+    certificateUrl:
+      "https://drive.google.com/file/d/1QVH258SJq9thp1EjxXtHXrRnhmMl2yxE/view?usp=sharing",
+  },
 ];
 
 export const achievements = [
-  "Solved 170+ problems on LeetCode",
+  "Solved 190+ problems on LeetCode",
   "Achieved 5-Star rating in Problem Solving on HackerRank",
   "Reached 2-Star rating on CodeChef",
 ];

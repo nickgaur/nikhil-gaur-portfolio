@@ -3,6 +3,7 @@ import Sidebar from "./components/Sidebar.jsx";
 import Hero from "./components/Hero.jsx";
 import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
+import Portfolio from "./components/Portfolio.jsx";
 import Skills from "./components/Skills.jsx";
 import Credentials from "./components/Credentials.jsx";
 import Education from "./components/Education.jsx";
@@ -21,6 +22,7 @@ export default function App() {
         <Hero />
         <Experience />
         <Projects />
+        {/* <Portfolio/> */}
         <Skills />
         <Credentials />
         <Education />

@@ -14,7 +14,7 @@ export default function Credentials() {
           <p className="skill-label">Certifications</p>
           <ul className="ledger">
             {certifications.map((item) => (
-              <li key={item}>{item}</li>
+              <li key={item}>{item.courseName} - <a target="_blank" href={item.certificateUrl}>Credentials</a></li>
             ))}
           </ul>
         </Reveal>
