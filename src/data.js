@@ -6,6 +6,8 @@ export const profile = {
   email: "nikhilgaur581@gmail.com",
   linkedin: "https://www.linkedin.com/in/nikhilgaur-gwalior/",
   github: "https://github.com/nickgaur",
+  leetcode: "https://leetcode.com/u/nikhilgaur581/",
+  stackoverflow: "https://stackoverflow.com/users/14957455/anonymous-coder",
   summary:
     "Software Developer with 3+ years of experience building scalable web applications and backend systems using Java, Spring Boot, and ReactJS. Track record of improving user productivity by up to 40%, cutting security breaches by 10%, and reducing certificate-related outages by 50% through RESTful API integration and IAM solutions. Skilled in cross-functional collaboration, microservices architecture, and authentication/authorization protocols (SAML, OAuth 2.0, OIDC).",
 };
