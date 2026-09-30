@@ -60,6 +60,7 @@ export const skillGroups = [
       "System Design",
       "Data Structures & Algorithms",
       "Full Stack Web Development",
+      "Power Automate"
     ],
   },
 ];
@@ -73,13 +74,14 @@ export const experience = [
     location: "Noida, UP",
     period: "Jul 2023 – Present",
     points: [
-      "Designed and implemented scalable Java-based applications using Spring Boot and Hibernate, supporting a critical module used by 100,000+ users daily",
+      "Designed and implemented scalable Java-based applications using Spring Boot and Hibernate, supporting a critical module used by 1000+ users daily",
       "Built and maintained a ReactJS-based frontend with modern JavaScript frameworks and state management libraries, increasing user productivity by 20%",
       "Developed and deployed microservices for a high-traffic application, improving performance by 30%",
       "Spearheaded the migration of a legacy monolithic application to a microservices architecture, enhancing system scalability and maintainability",
-      "Built a web-based UI to streamline internal workflows, driving a 30% increase in team efficiency",
+      "Built a web-based UI to streamline internal workflows, driving increase in team efficiency",
       "Applied authentication and authorization protocols (SAML, OAuth 2.0, OIDC) to strengthen application security",
       "Collaborated with designers and QA across cross-functional teams to deliver high-quality releases",
+      "Built Number of Automation Workflows through Power Automate to Audit & Reduced Efforts to do Repeated Jobs"
     ],
   },
   {
