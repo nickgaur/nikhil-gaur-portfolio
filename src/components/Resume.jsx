@@ -4,8 +4,8 @@ export default function Resume(props) {
   return (
     <>
         <a
-          href="/Files/Nikhil_Gaur_Resume.pdf"
-          download="Nikhil_Gaur_Resume.pdf"
+          href="/Files/Nikhil-Gaur-Resume.pdf"
+          download="Nikhil-Gaur-Resume.pdf"
            className="download-resume"
         >
       <button type="submit">
